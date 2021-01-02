@@ -1,2 +1,5 @@
 # TIL 
  
+algoritm 
+
+(Sort)[]
