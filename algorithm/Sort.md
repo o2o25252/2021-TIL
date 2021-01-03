@@ -43,4 +43,51 @@ function solution(array, commads){
 왜 ? -1 을 해주었는가? 커맨드는 항상 3개를 지닌 배열 이다 . 그러기에 딱 3번째를 반환 해주어야 한다.  slice 함수를 통해 마지막 만을 반환 하기 위함이다. slice( 3-1 , 3) 2번째 인덱스 와 3번째 자리 이런 식 이다. 
 
 ---
+
+
+0또 는 양의 정수가 주어졌을때, 정수를 이어 붙여 만들 수 있는 가장 큰수
+
+[가장큰수](https://programmers.co.kr/learn/courses/30/lessons/42746?language=javascript)
+
+문자열 로 바꾸어 반환
+
+1. 1의 자리의 수를 먼저 모으고 비교
+2. 2의 자리의 수를 비교
+
+    배열 안의 원소들의 값의 길이를 비교 하여 볼려 했으나 Undefined 가 나온다 . 
+    그래서 숫자 형을 문자형으로 바꾸어 찾는다.
+```
+    let c = n.map( v => String(v))
+    길이를 비겨를 위해서 원소를 문자로 반꾼다.
+```
+
+``` 
+   let o = c.filter( v => v.length <= 1 );
+    1 의 자리의 수만 모았다
+```
+
+```
+    o.sort( (a,b) => b-a);
+    내림 차순 정렬
+```
+이런 순으로 1 , 2 의 찾고 한배열에 넣고 문자열로 반환 해준다. 
+
+```
+    function solution(numbers) {
+    let n = numbers ;
+    let c = n.map ( v => String(v));
+    let o = c.filter(v=> v.length <=1);
+    o.sort( (a,b) => b-a);
+    
+    let k = c.filter(v=> v.length > 1);
+    k.sort( (a,b) => b-a);
+    
+    let a = o.concat(k).join("");    
+    return a 
+}
+
+```
+하지만 ... 1 차 시도 실패 첫번째 예시는 맞았지만 두번쨰 예시에 [3, 30, 34, 5, 9]	9534330 처럼 나오지 않는다. 
+9533430 이렇게 나온다. 
+
  
