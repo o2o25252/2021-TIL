@@ -3,7 +3,7 @@
 ## 2021/01/02
 ---
 
-[https://programmers.co.kr/learn/courses/30/lessons/42748]
+[k번쨰수](https://programmers.co.kr/learn/courses/30/lessons/42748)
 
 k번째수
 
