@@ -44,6 +44,7 @@ function solution(array, commads){
 
 ---
 
+## 2021/01/02
 
 0또 는 양의 정수가 주어졌을때, 정수를 이어 붙여 만들 수 있는 가장 큰수
 
