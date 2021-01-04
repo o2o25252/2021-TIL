@@ -89,6 +89,15 @@ function solution(array, commads){
 
 ```
 하지만 ... 1 차 시도 실패 첫번째 예시는 맞았지만 두번쨰 예시에 [3, 30, 34, 5, 9]	9534330 처럼 나오지 않는다. 
-9533430 이렇게 나온다. 
+9533430 이렇게 나온다.
+``` 
+    function solution(numbers) {
+    const arr = numbers
+        .map( num => num.toString() )
+        .sort( (a,b) => (b+a) - (a+b) );
+
+    return arr[0] === '0' ? '0' : arr.join(''); 
+}
+```
 
  
