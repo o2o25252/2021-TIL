@@ -99,5 +99,7 @@ function solution(array, commads){
     return arr[0] === '0' ? '0' : arr.join(''); 
 }
 ```
-
- 
+```
+    (b+a) - (a+b)
+```
+이 부분이 어떻게 해서 정렬 되는지 모르겠다 ... 
