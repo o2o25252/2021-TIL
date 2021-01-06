@@ -103,3 +103,5 @@ function solution(array, commads){
     (b+a) - (a+b)
 ```
 이 부분이 어떻게 해서 정렬 되는지 모르겠다 ... 
+
+b+a - a+b 는 a 은 다음 값 b은 현재 값 이다 0  1  -1 로 값을 변경 한다  
