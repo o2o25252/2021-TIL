@@ -129,7 +129,7 @@ b+a - a+b 는 a 은 다음 값 b은 현재 값 이다 0  1  -1 로 값을 변경
    `sort` 함수의 기본 문법은 `arr.sort([compareFunction])` 입니다. 여기서 우리가 정의해줘야 하는 것은 `[compareFunction]`    부분입니다.
     
    `[compareFunction]`은 sort 함수의 콜백함수로 firstEl과 secondEl이란 인자가 자동으로 들어갑니다.
-     <span style="color:blue">이 콜백함수의 작성을 생략하면 이전에 설명했듯 문자열로 바뀐 뒤 UTF-16의 코드 유닛 값을 기준으로 정렬이 수행됩니다.</span>.
+이 콜백함수의 작성을 생략하면 이전에 설명했듯 문자열로 바뀐 뒤 UTF-16의 코드 유닛 값을 기준으로 정렬이 수행됩니다.
      
    ## 1 , 0 , -1 / 단 ,변경은 -1 에서만 일어난다
      
