@@ -109,7 +109,7 @@ b+a - a+b 는 a 은 다음 값 b은 현재 값 이다 0  1  -1 로 값을 변경
 다음은 (34 + 40) - ( 40 + 34) 74 - 74 = 0 이므로 그대로 이런 식으로 쭉 하면 전부다 0 인데 ? 
 어떻게 정렬 되는 걸까?? 
 
-[REF](https://velog.io/@jakeseo_me/Javascript-Sort%ED%95%A8%EC%88%98%EC%97%90-%EB%8C%80%ED%95%9C-%EC%9E%A1%EC%A7%80%EC%8B%9D)
+[SORT 참고 ](https://velog.io/@jakeseo_me/Javascript-Sort%ED%95%A8%EC%88%98%EC%97%90-%EB%8C%80%ED%95%9C-%EC%9E%A1%EC%A7%80%EC%8B%9D)
 
 #  자바 스크립트 의 SORT 
 
