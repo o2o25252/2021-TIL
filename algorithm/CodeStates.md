@@ -59,4 +59,5 @@ function transformFirstAndLast(arr){
      
      }
  ```
+ 두번째 시도 객체 를 미리 선언해두고 그곳에 직접 넣어주었다
  
