@@ -108,7 +108,7 @@ function powerOfTwo(num) {
   }   
 }
 ```
-[REF]
+[REF] 코트스테이츠 
 
 ```
 function powerOfTwo(num) {
