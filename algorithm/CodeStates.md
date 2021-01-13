@@ -60,6 +60,8 @@ function transformFirstAndLast(arr){
      }
  ```
  
+ ---
+ 
  ## powerOfTwo
  
  ### 문제
@@ -127,3 +129,5 @@ function powerOfTwo(num) {
   return powered === num;
 }
 ```
+
+
