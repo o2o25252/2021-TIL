@@ -12,7 +12,7 @@
 
 ### 어떤 값을 담는 자료구조
 + 변수
-+ 리스트
++ [리스트](https://github.com/o2o25252/2021-TIL/blob/main/Python/README.md#list)
 + 튜플
 + 딕셔너리
 + 집합
