@@ -14,3 +14,10 @@
 # 리액트를 다루는 기술 ⚛️
 
 + [React](https://github.com/o2o25252/2021-TIL/blob/main/react/react.md)
+
+
+---
+
+# 파이썬
+
++ [Python](https://github.com/o2o25252/2021-TIL/tree/main/Python)
