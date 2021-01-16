@@ -6,7 +6,7 @@
 ## 자료형
 
 ### 자료에 대한 타입
-+ 숫자
++ [숫자](https://github.com/o2o25252/2021-TIL/blob/main/Python/README.md#%EC%88%AB%EC%9E%90)
 + 문자열
 + 불
 
