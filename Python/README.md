@@ -6,19 +6,19 @@
 ## 자료형
 
 ### 자료에 대한 타입
-+ 숫자
-+ 문자열
++ [숫자](https://github.com/o2o25252/2021-TIL/blob/main/Python/README.md#%EC%88%AB%EC%9E%90)
++ [문자열](https://github.com/o2o25252/2021-TIL/blob/main/Python/README.md#%EB%AC%B8%EC%9E%90%EC%97%B4)
 + 불
 
 ### 어떤 값을 담는 자료구조
 + 변수
-+ 리스트
++ [리스트](https://github.com/o2o25252/2021-TIL/blob/main/Python/README.md#list)
 + 튜플
 + 딕셔너리
 + 집합
 
 
-*숫자*
+### 숫자
 
 ```
 a = 3
@@ -36,7 +36,7 @@ print(a**b)
 몫 // 
 나머지 %
 
-*문자열*
+### 문자열
 
 다른언어와 같다 
 ```
@@ -241,6 +241,7 @@ a = [1,2,3]
 a.extent([4,5])
 //[1,2,3,4,5]
 ```
+<<<<<<< HEAD
 
 ## 튜플
 
@@ -317,3 +318,5 @@ dict_values(['날토', '이치', 'dl'])
 ```
 
 
+=======
+>>>>>>> 4acbb5f8d99f907a5c91bb11fed983ee4e76229a
