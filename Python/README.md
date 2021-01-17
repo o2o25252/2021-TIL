@@ -241,3 +241,79 @@ a = [1,2,3]
 a.extent([4,5])
 //[1,2,3,4,5]
 ```
+
+## 튜플
+
+리스트와 튜플 의 차이점은 
+```a=[1,2,3] // 리스트 추가 삭제 변경가능```
+```b=(1,2,3) // 튜플 고정되어있다. 보기만 가능 (read only)```
+
+```
+ t1 =(1,2,'a','b')
+>>> del t1[0]
+Traceback (most recent call last):
+  File "<pyshell#6>", line 1, in <module>
+    del t1[0]
+TypeError: 'tuple' object doesn't support item deletion
+
+```
+```
+>>> t1[0] ='c'
+Traceback (most recent call last):
+  File "<pyshell#7>", line 1, in <module>
+    t1[0] ='c'
+TypeError: 'tuple' object does not support item assignment
+```
+보는 것만 가능
+
+인덱싱 , 슬라이싱 된다 .
+
+더하기 곱하기 다 가능하다 그런데 t1,t2 가 변하는게 아니고 단지 t1 ,t2  를 더한 새로운 튜플을 만든 것이다. t1,t2 는 변하지 않는다. 
+```
+t2 =(3,4)
+>>> t1+t2
+(1, 2, 'a', 'b', 3, 4)
+```
+
+## 딕셔너리
+    자바스크립트 에서는 *object* 라고 생각 하면 된다. 
+```
+>>> dic = {'name':'Eric','age':15}
+>>> dic['name']
+'Eric'
+```   
+
+*딕셔너리 자료형*
+
+*딕셔너리 쌍 추가하기*
+```
+>>> a ={1:'a'}
+>>> a['name'] ="익명"
+>>> a
+{1: 'a', 'name': '익명'} //어떤 Key  와 Value  
+```
+*딕셔너리 요소 삭제*
+```
+del a[1]
+>>> a
+{'name': '익명'}
+```
+*딕셔너리 주의 사항*
+```
+d ={1:'aa',1:'bb'}
+>>> d
+{1: 'bb'} // 보면 키는 같으면 안된다. 같을 시에는 뒤에 값만 남아있는다.
+```
+*keys 로 키 만 가져오기*
+```
+dict = {1:'날토',2:'이치',3:'dl'}
+>>> dict.keys()
+dict_keys([1, 2, 3])
+```
+*values 로 벨류 만 가져오기*
+```
+>>> dict.values()
+dict_values(['날토', '이치', 'dl'])
+```
+
+
