@@ -14,7 +14,7 @@
 + 변수
 + [리스트](https://github.com/o2o25252/2021-TIL/blob/main/Python/README.md#list)
 + 튜플
-+ 딕셔너리
++ [딕셔너리](https://github.com/o2o25252/2021-TIL/tree/main/Python#%EB%94%95%EC%85%94%EB%84%88%EB%A6%AC)
 + 집합
 
 
