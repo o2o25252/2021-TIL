@@ -8,7 +8,7 @@
 ### 자료에 대한 타입
 + [숫자](https://github.com/o2o25252/2021-TIL/blob/main/Python/README.md#%EC%88%AB%EC%9E%90)
 + [문자열](https://github.com/o2o25252/2021-TIL/blob/main/Python/README.md#%EB%AC%B8%EC%9E%90%EC%97%B4)
-+ [불](
++ [불](https://github.com/o2o25252/2021-TIL/blob/main/Python/README.md#%EB%B6%88)
 
 ### 어떤 값을 담는 자료구조
 + [변수](
