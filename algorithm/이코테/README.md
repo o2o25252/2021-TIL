@@ -1,9 +1,10 @@
 # 이것이코딩테스트다
  
-+ [복잡도](https://github.com/o2o25252/2021-TIL/blob/main/algorithm/%EC%9D%B4%EC%BD%94%ED%85%8C/README.md#%EB%B3%B5%EC%9E%A1%EB%8F%84)
-+ [그리드]()
- - [거스름돈]()
- - [1이될떄까지]()
+- [복잡도](https://github.com/o2o25252/2021-TIL/blob/main/algorithm/%EC%9D%B4%EC%BD%94%ED%85%8C/README.md#%EB%B3%B5%EC%9E%A1%EB%8F%84)
+
+- [그리드](https://github.com/o2o25252/2021-TIL/tree/main/algorithm/%EC%9D%B4%EC%BD%94%ED%85%8C#%EA%B7%B8%EB%A6%AC%EB%94%94-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98)
+ + [거스름돈]()
+ + [1이될떄까지]()
 ------
 
 ## 복잡도
@@ -19,7 +20,7 @@
 
 
 
-## 그리디 알고리즘
+## 그리드 알고리즘
 
 - 그리디 알고리즘은 *현재 상황에서 지금당장 좋은 것만 고르는 방법*을 의미합니다.
 - 일반적인 그리디 알고리즘은 문제를 풀기 위한 최소한의 아이디어를 떠올릴 수 있는 능력을 요구합니다.
