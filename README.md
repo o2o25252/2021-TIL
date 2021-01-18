@@ -26,4 +26,4 @@
 
 # 이코테
 
-+[이코테](https://github.com/o2o25252/2021-TIL/tree/main/algorithm/%EC%9D%B4%EC%BD%94%ED%85%8C)
++ [이코테](https://github.com/o2o25252/2021-TIL/tree/main/algorithm/%EC%9D%B4%EC%BD%94%ED%85%8C)
