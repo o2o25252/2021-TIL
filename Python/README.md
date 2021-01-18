@@ -8,15 +8,17 @@
 ### 자료에 대한 타입
 + [숫자](https://github.com/o2o25252/2021-TIL/blob/main/Python/README.md#%EC%88%AB%EC%9E%90)
 + [문자열](https://github.com/o2o25252/2021-TIL/blob/main/Python/README.md#%EB%AC%B8%EC%9E%90%EC%97%B4)
-+ 불
++ [불](https://github.com/o2o25252/2021-TIL/blob/main/Python/README.md#%EB%B6%88)
 
 ### 어떤 값을 담는 자료구조
-+ 변수
++ [변수](https://github.com/o2o25252/2021-TIL/blob/main/Python/README.md#%EB%B3%80%EC%88%98)
 + [리스트](https://github.com/o2o25252/2021-TIL/blob/main/Python/README.md#list)
-+ 튜플
-+ 딕셔너리
-+ 집합
++ [튜플](https://github.com/o2o25252/2021-TIL/blob/main/Python/README.md#%ED%8A%9C%ED%94%8C)
++ [딕셔너리](https://github.com/o2o25252/2021-TIL/tree/main/Python#%EB%94%95%EC%85%94%EB%84%88%EB%A6%AC)
++ [집합](https://github.com/o2o25252/2021-TIL/blob/main/Python/README.md#%EC%A7%91%ED%95%A9)
 
+### 제어문 
++ [조건문](
 
 ### 숫자
 
