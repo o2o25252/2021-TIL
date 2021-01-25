@@ -8,6 +8,7 @@
   + [곱하기 혹은 더하기](https://github.com/o2o25252/2021-TIL/blob/main/algorithm/%EC%9D%B4%EC%BD%94%ED%85%8C/README.md#%EA%B3%B1%ED%95%98%EA%B8%B0-%ED%98%B9%EC%9D%80-%EB%8D%94%ED%95%98%EA%B8%B0)
   + [모험가의 길드](https://github.com/o2o25252/2021-TIL/blob/main/algorithm/%EC%9D%B4%EC%BD%94%ED%85%8C/README.md#%EB%AA%A8%ED%97%98%EA%B0%80-%EA%B8%B8%EB%93%9C)
 - [구현](https://github.com/o2o25252/2021-TIL/tree/main/algorithm/%EC%9D%B4%EC%BD%94%ED%85%8C#%EA%B5%AC%ED%98%84)  
+  + [상하좌우](https://github.com/o2o25252/2021-TIL/blob/main/algorithm/%EC%9D%B4%EC%BD%94%ED%85%8C/README.md#%EC%83%81%ED%95%98%EC%A2%8C%EC%9A%B0)
 ------
 
 ## 복잡도
