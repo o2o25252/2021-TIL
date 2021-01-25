@@ -272,12 +272,15 @@ D D R R D
 		if plan == move_types[i]:
 			nx = x + dx[i]
 			ny = y + dy[i]
+	# 공간을 벗어나는 경우 무시 			
 	if nx < 1 or ny < 1 or nx > n or ny > n:
 		continue
 	x,y = nx, ny
 
 >>> print(x,y)
 4 3
+# x : 2->3->3->4
+# y : 1->1->2->3
 ```
 
 
