@@ -262,9 +262,9 @@ R R R U D D
 
 >>> plans = input().split()
 D D R R D
-# 동 북 서 남
->>> dx = [0,0,-1,1] # 세로축 행 
->>> dy = [-1,1,0,0] # 가로축 열 
+# L R U D에 따른 이동 방향
+>>> dx = [0,0,-1,1] 
+>>> dy = [-1,1,0,0] 
 >>> move_types = ['L','R','U','D']
  
 >>> for plan in plans:
