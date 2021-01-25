@@ -165,4 +165,68 @@ import sys
 answer = 7
 print(f"정답은 {answer}입니다.")
 ```
+
+--- 
+## global 키워드
+
+
+``` 
+a = 0
+
+def fuc():
+    global a
+    a += 1
+for i in range(10):
+    fuc()
+    
+```
+
+## 패킹 언 패킹(여러 개의 반환 값)
+
+- 파이썬에서 함수는 여러 갸의 반환 값을 가질 수 이싿.
+```
+
+def operator(a,b):
+    add_var = a + b
+    sibtract_var = a- b
+    multiply_var = a * b
+    ddivide_var = a / b
+    retirm add_var, subtract_var, multiply_var, divide_var
+
+a,b,c,d = operator(7,3)
+```
+
+# 람다 표현식
+
+- 람다 표현식을 이용하면 함수를 간단하게 작성
+  + 특정한 기능을 수행하는 함수를 한 줄에 작성할 수 있다는 점이 특징
+
+```
+print((lamda a, b: a+b)(3,7))
+
+
+
+array = [('hong', 50), ('lee, 32),('unknown',74)]
+
+def my_key(x):
+    return x[1]
+
+sorted(array, key=my_key)
+# 람다는 
+sorted(array, key=lamda x: x[1]))
+
+```
+
+---
+
+# 실전 유용 라이브러리
+
+- itertools: 파이썬에서 반복되는 형태의 데이터를 처리하기 위한 유용한 기능
+  + 특히 순열과 조합 라이브러리는 코테에서 자주 사용
+- heapq: 힙 자료구조를 제공
+  + 일반적으로 우선순위 큐 기능을 구현하기 우해 사용 
+- bisect: 이진 탐색 기능 제공
+- collection: deque, counter등의 유용한 자료 구조
+- math: 필수적인 수학적 기능을 제공
+  + 팩토리얼, 제곱근, 최대공약수,삼각함수 관련 함수부터 파이와 가은 상수를 포함
   
