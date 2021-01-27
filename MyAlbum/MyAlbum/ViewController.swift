@@ -8,27 +8,29 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    var currentValue = 0
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        refresh()
+        
     }
-
+    @IBOutlet weak var Price: UILabel!
+        
+    
     @IBAction func hellow(_ sender: Any) {
-        let power = UIAlertController(title: "POWER !!", message: "i am const", preferredStyle: .alert)
-        let point = UIAlertAction(title: "POWER UP!", style: .default, handler: nil)
+        let message = "가격은 $\(currentValue)입니다."
+        let power = UIAlertController(title: "POWER !!", message: message, preferredStyle: .alert)
+        let point = UIAlertAction(title: "POWER UP!", style: .default, handler: { action in self.refresh()})
         power.addAction(point)
         present(power, animated: true, completion: nil)
-    }
-    
-    @IBAction func qwer(_ sender: Any) {
-        //팝업을 만드는 과정
-        let alert = UIAlertController(title: "hellow?!", message: "my first text", preferredStyle: .alert)
-        let action = UIAlertAction(title: "OK", style: .default, handler: nil)
-        alert.addAction(action)
         
-        //팝업을 띄우는 과정
-        present(alert, animated:  true, completion: nil)
+       
+    }
+    func refresh() {
+        let randomPrice = arc4random_uniform(10000) + 1
+        currentValue = Int(randomPrice)
+        Price.text = "$\(currentValue)"
     }
 }
 

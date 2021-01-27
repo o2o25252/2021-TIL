@@ -16,29 +16,64 @@
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="r0J-BD-uZp">
-                                <rect key="frame" x="194" y="379" width="46" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <connections>
-                                    <action selector="qwer:" destination="BYZ-38-t0r" eventType="touchUpInside" id="MaF-eM-Dv6"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bVg-uA-Iwj">
-                                <rect key="frame" x="91" y="129" width="162" height="55"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bVg-uA-Iwj">
+                                <rect key="frame" x="113" y="676" width="179" height="55"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="Cfl-ux-pP9"/>
+                                    <constraint firstAttribute="height" constant="50" id="ncb-wj-Jgf"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="36"/>
-                                <state key="normal" title="파워 업! 🌜">
-                                    <color key="titleColor" systemColor="systemIndigoColor"/>
+                                <state key="normal" title="Refresh 🌜">
+                                    <color key="titleColor" systemColor="systemOrangeColor"/>
                                 </state>
                                 <connections>
                                     <action selector="hellow:" destination="BYZ-38-t0r" eventType="touchUpInside" id="iea-55-Pcb"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text=" " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3ST-2i-jsT">
+                                <rect key="frame" x="198" y="152" width="7" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="MyPics" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lPc-gT-LhF">
+                                <rect key="frame" x="151" y="122" width="102" height="70"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="70" id="FUi-sY-TYw"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="350" verticalHuggingPriority="350" horizontalCompressionResistancePriority="350" verticalCompressionResistancePriority="350" misplaced="YES" image="dog" translatesAutoresizingMaskIntoConstraints="NO" id="Rf4-nm-hfg">
+                                <rect key="frame" x="35" y="232" width="320" height="320"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$1000💵" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CJe-4Q-7tn">
+                                <rect key="frame" x="136" y="568" width="118" height="36"/>
+                                <fontDescription key="fontDescription" type="system" weight="thin" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="lPc-gT-LhF" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="151" id="3rq-Nd-5N7"/>
+                            <constraint firstItem="bVg-uA-Iwj" firstAttribute="top" secondItem="Rf4-nm-hfg" secondAttribute="bottom" constant="124" id="80X-an-DAV"/>
+                            <constraint firstItem="Rf4-nm-hfg" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="CoQ-zF-Iqe"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="CJe-4Q-7tn" secondAttribute="bottom" constant="206" id="DHb-5l-X3O"/>
+                            <constraint firstItem="lPc-gT-LhF" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="78" id="IAQ-zo-jSE"/>
+                            <constraint firstItem="bVg-uA-Iwj" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="Mcu-Cz-6IV"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="lPc-gT-LhF" secondAttribute="trailing" constant="137" id="WDv-E7-EYb"/>
+                            <constraint firstItem="CJe-4Q-7tn" firstAttribute="centerX" secondItem="bVg-uA-Iwj" secondAttribute="centerX" id="hew-fV-Pyl"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="bVg-uA-Iwj" secondAttribute="bottom" constant="43" id="qun-j2-roh"/>
+                            <constraint firstItem="CJe-4Q-7tn" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="xyw-LS-Ozb"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="Price" destination="CJe-4Q-7tn" id="rUw-Up-6ZM"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -46,11 +81,12 @@
         </scene>
     </scenes>
     <resources>
+        <image name="dog" width="1372" height="2024.5"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
-        <systemColor name="systemIndigoColor">
-            <color red="0.34509803921568627" green="0.33725490196078434" blue="0.83921568627450982" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        <systemColor name="systemOrangeColor">
+            <color red="1" green="0.58431372549019611" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
