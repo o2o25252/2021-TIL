@@ -1,0 +1,32 @@
+# UIComponent
+
+## UIKit
+
+- 모든 뷰 컴포넌트는 UIKit 이라는 *프레임 워크*이다.
+
+-----
+
+- 앱은 오브젝트로 구성
+- 오브젝트 끼리 서로 메시지 보냄
+- 앱은 이벤트에 의해 프로세스 동작함
+
+----
+
+- Object, Data, Method
+- String and Variable
+- Connecting Outle
+- Writing Method
+- Local vs. Instance Variable
+- Closure
+
+## OOP
+
+앱은 오브젝트로 구성된다고 했다. 
+
+오브젝트란..? 
+- 데이터
+- 메소드 
+
+## String
+
+
