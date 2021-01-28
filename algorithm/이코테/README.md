@@ -11,6 +11,7 @@
   + [상하좌우](https://github.com/o2o25252/2021-TIL/blob/main/algorithm/%EC%9D%B4%EC%BD%94%ED%85%8C/README.md#%EC%83%81%ED%95%98%EC%A2%8C%EC%9A%B0)
   + [시각](https://github.com/o2o25252/2021-TIL/blob/main/algorithm/%EC%9D%B4%EC%BD%94%ED%85%8C/README.md#%EC%8B%9C%EA%B0%81)
   + [왕실의 나이트](https://github.com/o2o25252/2021-TIL/blob/main/algorithm/%EC%9D%B4%EC%BD%94%ED%85%8C/README.md#%EC%99%95%EC%8B%A4%EC%9D%98-%EB%82%98%EC%9D%B4%ED%8A%B8)
+  + [문자열 재정렬](https://github.com/o2o25252/2021-TIL/blob/main/algorithm/%EC%9D%B4%EC%BD%94%ED%85%8C/README.md#%EB%AC%B8%EC%9E%90%EC%97%B4-%EC%9E%AC%EC%A0%95%EB%A0%AC)
 ------
 
 ## 복잡도
