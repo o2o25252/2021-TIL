@@ -71,3 +71,39 @@ let isJsonOrMail = isJson || isMale // true
 let greetingMessage: String = isJson ? "Hellow Jason" : "Hello somebody"
 //Hellow Jason
 ```
+
+## Flow Control
+
+```
+var i = 0
+while i <10 {
+    print(i)
+    
+    if i == 5 {
+        break
+    }
+    i += 1
+}
+```
+```
+i = 10
+repeat{
+    print(i)
+    i += 1
+}while i < 10
+```
+
+```
+let coordinate = (x:10, y:10)
+
+switch coordinate {
+case ( 0,0 ):
+    print("원점 이에여")
+case (let x, 0):
+    print("x축 이에요 , x: \(x)")
+case (let x, let y ) where x == y:
+    print("x 랑 y랑 같은 x,y = \(x) . \(y)")
+case (let x,  let y)
+    print("좌표 어딘가 x,y \(x),\(y)")
+}
+```
