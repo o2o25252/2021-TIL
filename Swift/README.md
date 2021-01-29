@@ -107,3 +107,84 @@ case (let x,  let y)
     print("좌표 어딘가 x,y \(x),\(y)")
 }
 ```
+## Fuction and Optional
+
+### Function 
+```
+//물건값과 갯수를 받아서 전체 금액을 출력하는 함수
+
+//func printTotalPrice(price: Int, count: Int) {
+//    print("Total price : \(price * count)")
+//}
+//printTotalPrice(price:1500, count: 5)
+
+func printTotalPrice(가격 price: Int, 갯수 count: Int) {
+    print("Total Price" \(price * count)")
+}
+
+printTotalPrice(가격:1500, 갯수: 5)
+```
+//In-out paramter
+
+['value' is a 'let' constant] 라고 우리에게 알려준다. 처음에 Swift에서 파라미터는 기본적으로 상수(constant)이다. 상수는 변경할 수 없는데 value 값을 증가시키려고 시도했기 때문에 오류가 발생한 것이다. 자, 이제 이러한 문제를 inout 키워드로 해결해보자.
+```
+var value = 3 
+func incrementAndPrint(_ value: inout Int){
+    value +=1
+    print(value)
+}
+incrementAndPrint(&value)
+```
+함수를 호출할 때 변수 명 앞에 앰퍼샌드(&) 기호를 붙여서 사용
+
+### Optinal
+
+- Forced unwrapping
+- Optinal binding (if let)
+- Optinal binding (guard)
+- Nil colescing
+
+```
+//carName = nil
+//print(carName!) //err
+
+if let unwrappedCarName = carName {
+    print(unwrappedCarName)
+} else {
+    pirnt("Car Name 없다")
+}
+```
+```
+func printParsedInt(from: String){
+    if let parsedInt = Int(from){
+    print(parsedInt)
+} else{
+    print("Int로 컨버팅 안된다.")
+    }
+}
+
+//printParsedInt(from: "10") // 10
+//printParsedInt(from: "hellow) // Int로 컨버팅 안된다.
+```
+```
+
+func printPasedInt(from : Stirng){
+    guard let parsedInt = Int(from) else {
+        print("Int로 컨버팅 안된다.")
+        return
+    }
+    print(parsedInt)
+}
+
+```
+```
+let MyCarName: String = carName ?? "모델" 
+// carName 이 Nil 이라면 '모델' 이라는 디폴트 값
+```
+
+
+## Collection
+
+### Array
+
+
