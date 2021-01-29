@@ -1,5 +1,5 @@
 # 이것이코딩테스트다
-	[이코테](https://www.youtube.com/watch?v=m-9pAwq1o3w&list=PLRx0vPvlEmdAghTr5mXQxGpHjWqSz0dgC)
+[이코테](https://www.youtube.com/watch?v=m-9pAwq1o3w&list=PLRx0vPvlEmdAghTr5mXQxGpHjWqSz0dgC)
  
 - [복잡도](https://github.com/o2o25252/2021-TIL/blob/main/algorithm/%EC%9D%B4%EC%BD%94%ED%85%8C/README.md#%EB%B3%B5%EC%9E%A1%EB%8F%84)
 
