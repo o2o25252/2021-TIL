@@ -313,7 +313,7 @@ someSet.contains(4)
 
 someSet.insert(5)
 someSet
-
+(" gk
 someSet.remove(1)
 someSet
 
@@ -343,5 +343,21 @@ operateTwoNum(a: 4, b: 2, opertion: addClosure)
 
 operateTwoNum(a:4, b: 2, opertion: {a,b in return a/b})
 ```
+```
+// Trailing Closure
 
+func someSimpleFuncion(message: String, choSimpleClosure: () -> void) {
+    print("함수에서 호출이 되었어요, 메세지는 \(message)")
+    choSimpleClosure()
+}
+
+someSimpleFunction(message: "메로나", choSimpleClosure: {
+    print("헬로")
+})
+
+someSimpleFunction(message: "로나"){
+    print("하이이")
+}
+// 어떻게 이렇게 해도 둘이 같을까...?
+```
 
