@@ -361,3 +361,57 @@ someSimpleFunction(message: "로나"){
 // 어떻게 이렇게 해도 둘이 같을까...?
 ```
 
+## Structure
+
+- 스트럭쳐 타입은 복사 되고
+- 클레스는 참조 된다
+
+```
+//거리구하는 함수
+func distance(current: (x: Int, y: Int), target: (x: Int, y: Int)) -> Double {
+    // 피타고라스
+    let distanceX = Double(target.x - current.x)
+    let distanceY = Double(target.y - current.y)
+    let distance = sqrt(distanceX * distanceX + distanceY * DistanceY)
+    return distance
+}
+
+// 가장 가까운 스토어 구해서 프린트 하는 함수
+func printClosesStore(currentLocation:(x: Int, y: Int), stores:[(x: Int, y: Int, name: String)]) {
+    var closestStroeName = ""
+    var closestStroeDistance = Double.infinity
+    
+    for stroe in stores {
+        let distanceToStore = distance(current: currentLocation, target: (x :store.x y: store.y)))
+        closesStoreDistance = min(distanceTostroe, closestStoreDistance)
+        if closestStoreDistance == distanceToStore {
+            closestStoreName = store.name
+            }
+        }
+        print("Closest store: \(closestStoreName)")
+}
+
+ 스트럭쳐로 줄여보자 (미구현)
+```
+```
+struct Lecture {
+    let name: String
+    let instructor: String
+    let numOfStudent: Int
+ }
+ 
+ func printLectureName(from instructor: String, lectures: [Lecture]){
+ 
+ let lectureName =lectures.frist { lec)  -> Bool in return lec.instructor == instructor
+ }.? name
+ 
+ print("강사님 강의는요: \(lectureName)")
+ }
+ let lec1 =Lecture(name: "IOS Basic", instructor: "Jason" , numOfStudent: 5)
+ let lec2 =Lecture(name: "IOS Advanced", instructor: "Jack" , numOfStudent: 5)
+ let lec3 =Lecture(name: "IOS Pro", instructor: "JIM", numOfStudent: 5)
+ let lectures =[lec1, lec2,lec3]
+ 
+ 
+```
+
