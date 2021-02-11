@@ -417,5 +417,5 @@ struct Lecture {
 ### Protocol
 준수 
 
-
+### Property
 
