@@ -419,6 +419,6 @@ struct Lecture {
 
 ### Property
 
-
+프로퍼티 
 
 
