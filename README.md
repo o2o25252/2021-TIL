@@ -11,7 +11,7 @@
 
 ---
 
-# 리액트를 다루는 기술 ⚛️
+# ---리액트를 다루는 기술--- ⚛️
 
 + [React](https://github.com/o2o25252/2021-TIL/blob/main/react/react.md)
 
