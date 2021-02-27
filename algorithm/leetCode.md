@@ -52,8 +52,9 @@ class Solution:
 ```
 
 def twoSum(self,nums,target) :
+	vals = {} 
 	for i in range(len(nums)):
-		if i in vals:
-			return [vals[nums(i)],i]
-	vals[target-nums(i)] = i			
+		if nums[i] in vals:
+			return [vals[nums[i]],i]
+	vals[target-nums[i]] = i			
 ```
