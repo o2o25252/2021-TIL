@@ -47,3 +47,13 @@ class Solution:
                 if temp == target:
                     return [i, j]
 ```
+
+
+```
+
+def twoSum(self,nums,target) :
+	for i in range(len(nums)):
+		if i in vals:
+			return [vals[nums(i)],i]
+	vals[target-nums(i)] = i			
+```
