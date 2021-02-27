@@ -147,6 +147,10 @@ incrementAndPrint(&value)
 - Nil colescing
 
 ```
+nil: 무
+```
+
+```
 //carName = nil
 //print(carName!) //err
 
@@ -325,6 +329,11 @@ someSet
 없는 함수 
 
 ```
+: 2개의 파라미터 받기 Int 로 반환 
+var multiplyClosure: (Int,Int) -> Int = { (a: Int , b: Int) -> Int in return a * b }
+
+축약 가능 
+
 var multiplyClosure: (Int, Int) -> Int = { $0 * $1 }
 
 let result = multiplyClosure(4,2)
