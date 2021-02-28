@@ -1,4 +1,4 @@
-## TWo Sum
+## [TWo Sum](https://leetcode.com/problems/two-sum/submissions/)
 
 
 ```
