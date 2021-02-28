@@ -37,7 +37,7 @@
 1 3
 2 3
 ```
-#### 1 답
+#### 1 Sol
 ```
 class Solution:
     def twoSum(self, nums, target):
@@ -48,7 +48,7 @@ class Solution:
                     return [i, j]
 ```
 
-
+#### 2 Sol
 ```
 
 def twoSum(self,nums,target) :
