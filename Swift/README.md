@@ -429,6 +429,7 @@ printLectureName(from: "no", lectures: lectures)
 준수 
 
 ```
+
 import UIKit
 // CustomStringConvertible 프로토콜 
 struct Lecture: CustomStringConvertible{
@@ -456,6 +457,7 @@ let lectures = [lec1,lec2,lec3]
 printLectureName(from: "no", lectures: lectures)
 
 print(lec1) // Title: IOS Basic, Instructor: Jason
+```
 
 ```
 
