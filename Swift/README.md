@@ -402,6 +402,7 @@ func printClosesStore(currentLocation:(x: Int, y: Int), stores:[(x: Int, y: Int,
 
  스트럭쳐로 줄여보자 (미구현)
 ```
+```
 import UIKit
 
 struct Lecture {
@@ -430,6 +431,7 @@ printLectureName(from: "no", lectures: lectures)
 
 ```
 
+```
 import UIKit
 // CustomStringConvertible 프로토콜 
 struct Lecture: CustomStringConvertible{
@@ -457,8 +459,6 @@ let lectures = [lec1,lec2,lec3]
 printLectureName(from: "no", lectures: lectures)
 
 print(lec1) // Title: IOS Basic, Instructor: Jason
-```
-
 ```
 
 ### Property
