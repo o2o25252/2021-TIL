@@ -540,4 +540,48 @@ Math.half(value: 20)
 
 ```
 
+## Class
+스트럭트 클레스 차이 
+```
+import UIKit
+
+struct PersonStruct {
+    var firstName:String
+    var lastName:String
+    
+    init(firstName: String, lastName:String) {
+        self.firstName = firstName
+        self.lastName = lastName
+    }
+    
+    var fullName: String {
+        return "\(firstName) \(lastName)"
+    }
+    mutating func uppercaseName() {
+        firstName = firstName.uppercased()
+        lastName = lastName.uppercased()
+    }
+}
+
+class PersonClass {
+    var firstName:String
+    var lastName:String
+    
+    init(firstName: String, lastName:String) {
+        self.firstName = firstName
+        self.lastName = lastName
+    }
+    
+    var fullName: String {
+        return "\(firstName) \(lastName)"
+    }
+     func uppercaseName() {
+        firstName = firstName.uppercased()
+        lastName = lastName.uppercased()
+    }
+}
+
+
+```
+
 
