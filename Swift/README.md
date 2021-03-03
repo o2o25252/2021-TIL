@@ -630,3 +630,64 @@ jason.grades.append(history)
 
 jason.grades.count
 ```
+phase 1 이 끝나기 전에는  어떤 프로퍼티나 메서드를 사용할 수없다
+phase 2 는 일단 프로퍼티가 다 세팅이 되어야 할 수있다. 
+
+designated vs convenience Initialization
+```
+class Student: Person {
+    var grades: [Grade] = []
+    //  designated
+    override init(firstName: String, lastName: String) {
+        super.init(firstName: firstName, lastName: lastName)
+    }
+    // convenience
+    convenience init(student: Student) {
+        self.init(firstName: student.firstName, lastName: student.lastName)
+    }
+    
+    
+}
+
+// 학생인데 운동선수
+class StudentAthlete: Student {
+    var minimumTrainingTime: Int = 2
+    var trainedTime: Int = 0
+    var sports: [String]
+    
+    init(firstName: String, lastName: String, sports: [String]) {
+        // Phase 1
+        self.sports = sports // 자식 클래스 즉, 자기 자신부터 먼저 init해주어야 한다. 이걸  2phase 이니셜 라이즈네이션 이라한다.
+        // Person 클래스에 상속되어 기에 사용할수 있다. super 사용
+        super.init(firstName: firstName, lastName: lastName)
+        
+        // Phase 2
+        self.train()
+    }
+    
+    
+    convenience init(name: String) {
+        self.init(firstName: name, lastName: "", sports: [])
+    }
+    
+        
+    func train() {
+        trainedTime += 1
+    }
+}
+
+// 운동선인데 축구선수
+class FootballPlayer: StudentAthlete {
+    var footballTeam = "FC Swift"
+
+    override func train() {
+        trainedTime += 2
+    }
+}
+
+let student1 = Student(firstName: "Jason", lastName: "Lee")
+let student1_1 = Student(student: student1)
+let student2 = StudentAthlete(firstName: "Jay", lastName: "Lee", sports: ["Football"])
+let student3 = StudentAthlete(name: "Mike")
+
+```
