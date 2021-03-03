@@ -691,3 +691,6 @@ let student2 = StudentAthlete(firstName: "Jay", lastName: "Lee", sports: ["Footb
 let student3 = StudentAthlete(name: "Mike")
 
 ```
+- DI 는 자신의 부모의   Di  를 호출해야한다. 
+- CI 는 같은클래스의 이니셜라이저를 꼭 하나 호출해야한다,
+- CI는 궁극적으로  DI  를 호출해야함 
