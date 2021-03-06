@@ -32,7 +32,7 @@
 
 + [MyAlbum](https://github.com/o2o25252/2021-TIL/tree/main/MyAlbum)
 + [PlayGround](https://github.com/o2o25252/2021-TIL/tree/main/Swift)
-+ [SWift -> coding test]()
++ [Swift -> 코테 팁 하며 배운 문법 정리 공간]()
 
 # IOS
 
