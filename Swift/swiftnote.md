@@ -30,3 +30,30 @@ print(stringArr2) // [1, 2, 3, 4, 5]
 readLine() 으로 받은 입력값을 강재 언래핑 후, String 타입으로 만든 뒤, Array로 감싸고 있다. 이렇게 하면
 문자열은 [Character] 타입의 배열로 변환된다. 이를 map 을 통해 [String] -> [Character] -> [Int] 형으로 변환 작업을 거쳐서 
 Int 타입의 배열을 얻어낼 수 있다. 
+
+## Count
+```
+let stringAttay=["add","bd","cccc","ddd","e"]
+var threeCountArray = [String]()
+for st in stringAttay{
+    if st.count == 3 {
+        threeCountArray.append(st)
+    }
+}
+
+print(threeCountArray)
+```
+st.count 일때 st sms add , bd ...  등 으로 하나씩찍히는 데 이때 count 는 그 글자의 글자수 를 나타낸다. 
+
+## 고차함수 
+
+- map
+```
+let t = readLine()!.split(separator: " ").map{ Double($0)! }
+
+```
+- filter
+
+- reduce
+
+
