@@ -114,16 +114,16 @@
                                     <constraint firstAttribute="width" secondItem="wWU-gP-YTR" secondAttribute="height" multiplier="7:10" constant="7" id="EtF-jI-rX2"/>
                                 </constraints>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Luffy" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cm0-6F-obr">
-                                <rect key="frame" x="169" y="593" width="77" height="36"/>
-                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="30"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="$3000" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GhL-ht-n0f">
-                                <rect key="frame" x="155.5" y="693" width="103" height="36"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="$3000" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GhL-ht-n0f">
+                                <rect key="frame" x="156" y="682" width="103" height="36"/>
                                 <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="30"/>
                                 <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Luffy" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cm0-6F-obr">
+                                <rect key="frame" x="169" y="581" width="77" height="36"/>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="30"/>
+                                <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
@@ -131,13 +131,18 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="PIP-eJ-r4T" firstAttribute="top" secondItem="STP-me-SiO" secondAttribute="top" constant="20" id="1bm-ts-bTm"/>
+                            <constraint firstItem="GhL-ht-n0f" firstAttribute="leading" secondItem="Cm0-6F-obr" secondAttribute="trailing" constant="-90" id="2l8-Xn-Pbt"/>
                             <constraint firstItem="STP-me-SiO" firstAttribute="trailing" secondItem="PIP-eJ-r4T" secondAttribute="trailing" constant="16" id="862-oB-c7K"/>
                             <constraint firstItem="wWU-gP-YTR" firstAttribute="top" secondItem="STP-me-SiO" secondAttribute="top" constant="100" id="N2V-Vi-hRh"/>
                             <constraint firstItem="GhL-ht-n0f" firstAttribute="centerX" secondItem="Cm0-6F-obr" secondAttribute="centerX" id="RVb-Eb-q5x"/>
                             <constraint firstItem="wWU-gP-YTR" firstAttribute="leading" secondItem="STP-me-SiO" secondAttribute="leading" constant="50" id="Y0w-3w-RX3"/>
+                            <constraint firstItem="Cm0-6F-obr" firstAttribute="leading" secondItem="wWU-gP-YTR" secondAttribute="trailing" constant="-195" id="ZLj-er-DaR"/>
                             <constraint firstItem="Cm0-6F-obr" firstAttribute="centerX" secondItem="wWU-gP-YTR" secondAttribute="centerX" id="gvh-1B-1eD"/>
+                            <constraint firstItem="Cm0-6F-obr" firstAttribute="leading" secondItem="wWU-gP-YTR" secondAttribute="trailing" constant="-195" id="hCm-g4-Jf0"/>
                             <constraint firstItem="wWU-gP-YTR" firstAttribute="centerX" secondItem="STP-me-SiO" secondAttribute="centerX" id="jpw-tK-09b"/>
                             <constraint firstItem="GhL-ht-n0f" firstAttribute="top" secondItem="Cm0-6F-obr" secondAttribute="bottom" constant="64" id="uNd-Qp-KG7"/>
+                            <constraint firstItem="Cm0-6F-obr" firstAttribute="leading" secondItem="wWU-gP-YTR" secondAttribute="trailing" constant="-195" id="wBO-bF-51K"/>
+                            <constraint firstItem="Cm0-6F-obr" firstAttribute="leading" secondItem="wWU-gP-YTR" secondAttribute="trailing" constant="-195" id="zkY-lp-meI"/>
                         </constraints>
                     </view>
                     <connections>
