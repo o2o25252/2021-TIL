@@ -31,6 +31,13 @@ readLine() 으로 받은 입력값을 강재 언래핑 후, String 타입으로 
 문자열은 [Character] 타입의 배열로 변환된다. 이를 map 을 통해 [String] -> [Character] -> [Int] 형으로 변환 작업을 거쳐서 
 Int 타입의 배열을 얻어낼 수 있다. 
 
+
+- 하나의 값 
+```
+// input: 100 
+ var n = Int(readLine()!)!
+
+```
 ## Count
 ```
 let stringAttay=["add","bd","cccc","ddd","e"]
