@@ -12,3 +12,4 @@
 - [Swift underbar는 모야?](https://medium.com/@codenamehong/swift-underscore-90dcbec5072f)
 ## 2021-03-10
 - [String 반복](https://developer.apple.com/documentation/swift/string/2427723-init)
+- [print terminator](https://developer.apple.com/documentation/swift/1541053-print)
