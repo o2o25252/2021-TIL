@@ -34,7 +34,7 @@
 + [PlayGround](https://github.com/o2o25252/2021-TIL/tree/main/Swift)
 + [Swift -> 코테 팁 하며 배운 문법 정리 공간](https://github.com/o2o25252/2021-TIL/blob/main/Swift/swiftnote.md)
 + [오늘읽은거 링크](https://github.com/o2o25252/2021-TIL/blob/main/todayReadLink.md)
-# IOS
+# IOS Test APP
 
 + [BountyList](https://github.com/o2o25252/2021-TIL/tree/main/Swift/TestApp/BountyList2)
 + [BountyList CollectionView](https://github.com/o2o25252/2021-TIL/tree/main/Swift/TestApp/BountyListCollectionView/BountyList.xcodeproj/project.xcworkspace)
