@@ -10,3 +10,5 @@
 - [구조체 와 클레스 차이](https://shark-sea.kr/entry/Swift-%EA%B5%AC%EC%A1%B0%EC%B2%B4%EC%99%80-%ED%81%B4%EB%9E%98%EC%8A%A4-%EC%B0%A8%EC%9D%B4-struct-vs-class)
 ## 2021-03-09
 - [Swift underbar는 모야?](https://medium.com/@codenamehong/swift-underscore-90dcbec5072f)
+## 2021-03-10
+- [String 반복](https://developer.apple.com/documentation/swift/string/2427723-init)
