@@ -35,7 +35,8 @@
 + [Swift -> 코테 팁 하며 배운 문법 정리 공간](https://github.com/o2o25252/2021-TIL/blob/main/Swift/swiftnote.md)
 + [오늘읽은거 링크](https://github.com/o2o25252/2021-TIL/blob/main/todayReadLink.md)
 # IOS
-
++ [BountyList]()
++ [BountyList CollectionView]()
 # 아키텍쳐
 
 + [MVVM](https://github.com/o2o25252/2021-TIL/blob/main/MVVM.md)
