@@ -13,3 +13,5 @@
 ## 2021-03-10
 - [String 반복](https://developer.apple.com/documentation/swift/string/2427723-init)
 - [print terminator](https://developer.apple.com/documentation/swift/1541053-print)
+## 2021-03-11
+- [알고리즘에 필요한 스위프트 베이직](https://twih1203.medium.com/swift-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98%EC%97%90-%ED%95%84%EC%9A%94%ED%95%9C-swift-basic-%EC%B4%9D%EC%A0%95%EB%A6%AC-d86453bbeaa5)
