@@ -42,5 +42,4 @@
 
 + [MVVM](https://github.com/o2o25252/2021-TIL/blob/main/MVVM.md)
 
-# 스위프트 데이터 구조와 알고리즘
-+ [리스트]
+
