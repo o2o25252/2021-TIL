@@ -44,6 +44,4 @@
 
 # Swift coding test 
 
-# clube house
-
 # 코더스 하이 
