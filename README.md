@@ -42,10 +42,6 @@
 
 + [MVVM](https://github.com/o2o25252/2021-TIL/blob/main/MVVM.md)
 
-# Swift coding test 
-
-# 4월 ing 코더스 하이 
-
-# 4월말 예정 
+수정
 
 
