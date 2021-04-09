@@ -7,8 +7,8 @@
 + [Sort](https://github.com/o2o25252/2021-TIL/blob/main/algorithm/Sort.md)
 + [Basic](https://github.com/o2o25252/2021-TIL/blob/main/algorithm/CodeStates.md)
 + [프로그래머스](https://programmers.co.kr/job?utm_source=google&utm_medium=cpc&utm_campaign=job_board&gclid=Cj0KCQiAj9iBBhCJARIsAE9qRtBBaVeh77oEnMxl9wvxAZqGd4kiUBsvjMh5kkoGP7Lfazze1koUZDAaAhi1EALw_wcB)
-
-
++ [백준](https://www.acmicpc.net/step)
++ [스위프트 알고리즘](///)
 ---
 
 # 리액트를 다루는 기술 ⚛️
@@ -38,6 +38,9 @@
 
 + [BountyList](https://github.com/o2o25252/2021-TIL/tree/main/Swift/TestApp/BountyList2)
 + [BountyList CollectionView](https://github.com/o2o25252/2021-TIL/tree/main/Swift/TestApp/BountyListCollectionView/BountyList.xcodeproj/project.xcworkspace)
++ [TODO-List](///)
++ ---
 # 아키텍쳐
 
 + [MVVM](https://github.com/o2o25252/2021-TIL/blob/main/MVVM.md)
+
